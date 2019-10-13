@@ -1,0 +1,124 @@
+.header-body{
+    width: 80%;
+    margin-left: 10%;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+.logo-img{
+    width: 2em;
+    height: 2em;
+    float:left;
+    margin-top:-10px;
+}
+.header-navbar-area{
+    padding-right: 2%;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+    width: 50px;
+    margin-right: -5%;
+}
+.collapse.navbar-collapse{
+    margin-right: 0;
+}
+.container-fluid {
+      padding: 60px 50px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 374px)
+{
+  .header-body{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .toggle-button{
+    margin-right:2%;
+  }
+  .header-navbar-area{
+    padding-right: 0%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 413px)
+{
+  .header-body{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .toggle-button{
+    margin-right:3%;
+  }
+  .header-navbar-area{
+    padding-right: 0%;
+  }
+}
+@media screen and (min-width: 414px) and (max-width: 479px)
+{
+    .header-body{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .header-navbar-area{
+        padding-right: 0%;
+    }
+
+}
+@media screen and (min-width: 480px) and (max-width: 599px)
+{
+    .header-body{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .header-navbar-area{
+        padding-right: 0%;
+    }
+    .toggle-button{
+        margin-right:3%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 767px)
+{
+    .header-body{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .header-navbar-area{
+        padding-right: 0%;
+    }
+    .toggle-button{
+        margin-right:4%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 799px)
+{
+    .header-body{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .header-navbar-area{
+        padding-right: 1%;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1023px)
+{
+    .header-body{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
